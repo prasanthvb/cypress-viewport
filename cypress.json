@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://github.com/login/",
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": true,
+          "html": false,
+          "json": true
+      }
+  },
+  "testFiles" : "**/*/*.spec.js"
+}
