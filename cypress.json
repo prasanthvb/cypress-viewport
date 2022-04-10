@@ -12,5 +12,5 @@
           "json": true
       }
   },
-  "testFiles" : "**/*/*.spec.js"
+  "testFiles" : "**/*/*.spec.ts"
 }
